@@ -30,7 +30,7 @@ public class Exercicio5 {
         lp1 = (float)((p1*0.6+(((e1+e2)/2)* 0.4)) * 0.5 + (Math.max(((p1*0.6+((e1+e2)/2)*0.4)-5.9), 0)/((p1*0.6+((e1+e2)/2)*0.4)-5.9))*(api*0.5)+x+(sub*0.2));
         
         if(lp1 > 10){
-            System.out.println("Digite novamente as notas");
+            System.out.println("Execute o programa novamente e verifique as notas! (O resultado foi acima de 10,00)");
         }else{
             System.out.println("Sua média é " + lp1);
         }
