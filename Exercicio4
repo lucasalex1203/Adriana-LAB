@@ -1,0 +1,16 @@
+public class Exercicio4{
+
+    public static void main(String[] args){
+
+    int janeiro = 15000;
+    int fevereiro = 23000;
+    int marco = 17000;
+    int sum = janeiro + fevereiro + marco;
+    float media = (janeiro + fevereiro + marco) / 3;
+
+    System.out.println("O total de despesa da empresa foi de: R$" + sum);
+    System.out.println("A média mensal de gastos foi de: R$" + media);
+
+    }
+
+}
