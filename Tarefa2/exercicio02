@@ -1,1 +1,31 @@
+import java.util.Scanner;
 
+public class exercicio02 {
+
+    public static void main(String[] args) {
+
+        Scanner eleitor = new Scanner(System.in);
+
+        System.out.print("Digite a quantidade total de eleitores: ");
+        float eleitores = eleitor.nextInt();
+
+        System.out.print("Digite a quantidade de votos brancos: ");
+        float b = eleitor.nextInt();
+
+        System.out.print("Digite a quantidade de votos nulos: ");
+        float n = eleitor.nextInt();
+
+        System.out.print("Digite a quantidade de votos válidos: ");
+        float v = eleitor.nextInt();
+
+        float pBrancos = (b/eleitores) * 100;
+        float pNulos= (n/eleitores) * 100;
+        float pValidos = (v/eleitores) *100;
+
+        System.out.println("A porcentagem de votos brancos: " + pBrancos + "%");
+        System.out.println("A porcentagem de votos nulos: " + pNulos + "%");
+        System.out.println("A porcentagem de votos validos " + pValidos + "%");
+        
+    }
+    
+}
