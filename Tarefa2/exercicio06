@@ -1,1 +1,19 @@
+import java.util.Scanner;
 
+public class exercicio06 {
+
+    public static void main(String[] args) {
+        
+        Scanner celsius = new Scanner(System.in);
+
+        System.out.print("Digite o valor da temperatura fahrenheit: ");
+
+        float fahrenheit  = celsius.nextFloat();
+
+        float conversao = (fahrenheit - 32) * 5/9;
+
+        System.out.println("O valor convertido é: " + conversao + "°C");
+
+    }
+
+}
