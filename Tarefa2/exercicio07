@@ -1,1 +1,26 @@
+import java.util.Scanner;
 
+public class exercicio07 {
+    
+    public static void main(String[] args) {
+        
+        Scanner numero = new Scanner(System.in);
+
+        System.out.print("Digite o número desejado: ");
+
+        float desejo = numero.nextFloat();
+
+        System.out.println(desejo);
+
+        if (desejo > 10)
+        {
+            System.out.println("É maior do que 10!");
+        }
+        else
+        {
+            System.out.println("Não é maior do que 10!");
+        }
+    
+    }
+
+}
